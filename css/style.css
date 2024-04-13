@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     i {
         margin: 5px;
@@ -130,6 +131,7 @@ hr {
     .input-buscador {
         width: 4rem;
         height: 2rem;
+        color: aliceblue;
         padding: 5px;
         text-align: center;
         margin: 10px;
@@ -154,7 +156,8 @@ hr {
     .containerPeliculas {
         display: flex;
         flex-wrap: wrap;
-        padding: 10px;}
+        padding: 10px;
+    }
 
         .pelicula {
             display: flex;
