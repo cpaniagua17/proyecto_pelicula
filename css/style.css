@@ -14,14 +14,14 @@
     width: 100%;
     min-height: 100px;
     background-image: linear-gradient(to bottom, #263448, #52446d, #944b7a, #cf556a, #ee7743);
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 
   /*estilos index*/
-.header-container, 
- .nav {
-      i {
-        margin: 10px;
-    }
 
     ul {
         width: 100%;
@@ -30,7 +30,7 @@
         flex-direction: row;
         text-align: center;
         justify-content: space-around;
-        margin: 15px;
+        margin-right: 15px;
         padding: 0%;
            
     }
