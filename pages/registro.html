@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <!--fontawesone-->
+    <script src="https://kit.fontawesome.com/f34a0bac45.js" crossorigin="anonymous"></script>
+    <!--estilo-->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registro movies</title>
+</head>
+
+<body class="bodyform">
+    <header class="header-container">
+        <nav class="navegacion" >
+            <a class="nav" href="../index.html"><i class="fas regular fa-film"></i>CAC-movies</a>
+        </nav>
+    </header>
+    <h2>Formulario de registro</h2>
+    <section  class="registro">
+        <form action="" method="post">
+            <div>
+                <fieldset class="formulario">
+
+                    <legend>Datos Personales</legend>
+
+
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+
+                    <input type="text" name="email" id="email" placeholder="Ingrese su email " required>
+
+                    <input type="password" name="password" id="password" placeholder="contraseña" size="10" hidden
+                        required>
+
+                    <input type="date" placeholder="Fecha de nacimiento" name="fechadenacimiento">
+                    <br>
+                    <select id="pais" name="pais">
+                        <option value="">Selecciona un pais</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Peru">Peru</option>
+                        <option value="uruguay">uruguay</option>
+                        <option value="Venezuela">Venezuela</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label class="terminos" for="terminos">Acepto Terminos y Condiciones
+                    </label>
+                    <div class="botonform">
+                        <button class="boton-formulario" type="submit"> Registrarse</button>
+                        <button class="boton-formulario" type="reset">Reset</button>
+                    </div>
+                </fieldset>
+        </form>
+        </div>
+    </section>
+    <div>
+        <a class="aform" href="#">Necesitas ayuda?</a>
+    </div>
+    <footer>
+        
+        <!--     <li>
+                <a href="">Terminos y Condiciones</a>
+            </li>
+            <li>
+                <a href="">Preguntas frecuentes</a>
+            </li>
+            <li>
+                <a href="">ayuda</a>
+
+            </li>
+            <li>
+                <a href="">Administrador de peliculas</a>
+
+            </li>
+
+        </ul>-->
+        <p class="derechos">Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
