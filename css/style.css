@@ -149,12 +149,12 @@ hr {
 #Tendencias {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: flex; }
 
     .containerPeliculas {
         display: flex;
         flex-wrap: wrap;
-        padding: 10px;
+        padding: 10px;}
 
         .pelicula {
             display: flex;
@@ -162,7 +162,7 @@ hr {
             align-items: center;
             margin: auto;
         }
-    }
+    
 
     img {
         min-width: 250px;
@@ -218,8 +218,8 @@ img:hover {
     padding: 10px;}
 
     img {
-        min-width: 200px;
-        height: 300px;
+        min-width: 250px;
+        height: 350px;
         margin: 10px;
         border-radius: 5px;
         box-shadow: 10px 10px 47px -6px rgba(122, 121, 121, 0.42);
@@ -320,8 +320,8 @@ footer {
     text-align: center;
     color: aliceblue;
 
-    H6 {
-        font-size: 2Opx;
+    h6 {
+        font-size: 20px;
         font-weight: 100;
     }
 }
@@ -338,3 +338,11 @@ a:hover {
 
 }
 
+.detalle-container {
+
+    background-image: url(../assets/img/pelicula_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+
+}
