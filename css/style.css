@@ -305,7 +305,7 @@ a:hover {
 }
 /* pagina detalle*/
 .detalle-container {
-   
+   min-height: auto;
     background: linear-gradient(to bottom, #5555553d, #2c2929a3), url("../assets/img/pelicula_1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
