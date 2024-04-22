@@ -25,7 +25,6 @@
         align-items: center;        
         justify-content: space-evenly;
         margin-top: 10px;
-    
         margin-bottom: 10px;
            
     }
@@ -75,7 +74,6 @@ h2 {
 .banner {
     width: 100%;
     height: 80vh;
-
     background: linear-gradient(to bottom, #5555553d, #2c2929a3), url("../assets/img/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,9 +114,6 @@ hr {
         display: flex;
         align-items: center;
     }
-
-
-
     .input-buscador {
         width: 4rem;
         height: 2rem;
@@ -138,11 +133,6 @@ hr {
 
 
 /* seccion galeria */
-
-#Tendencias {
-    width: 100%;
-    height: 100%;
-    display: flex; }
 
     .containerPeliculas {
         display: flex;
@@ -174,18 +164,7 @@ hr {
         display: flex;
         justify-content: space-around;
         align-items: center;
-
-
-        button {
-            color: #944b7a;
-            background-color: #252524;
-            border-radius: 5px;
-
-
-        }
-    }
-
-
+           }
 
 img:hover {
     transform: scale(1.05);
@@ -194,11 +173,6 @@ img:hover {
 }
 
 /*seccion aclamadas*/
-.aclamadas {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
 
 .containerAclamadas {
     overflow-x: scroll;
@@ -209,7 +183,7 @@ img:hover {
     align-items: start;
     column-gap: 20px;
     row-gap: 20px;
-    padding: 10px;}
+    padding: 10px;
 
     img {
         min-width: 250px;
@@ -220,6 +194,7 @@ img:hover {
         object-fit: cover;
 
     }
+}
 
 
 /*formulario de registro*/
@@ -231,7 +206,6 @@ img:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .formulario,
@@ -248,17 +222,16 @@ select {
     align-items: center;
 }
 
-
-.botonform .boton-formulario {
+ .boton-formulario, .boton{
+     width: 5rem;
+     border-radius: 5px;
+     padding: 5px;
+     margin: 10px;
+     background-color: #252524;
     color: #944b7a;
-    background-color: #252524;
-    width: 5rem;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px;
+    font-size: 16px;
 
 }
-
 
 .aform {
     color: #066fcc;
@@ -294,7 +267,6 @@ form .login {
     width: 6rem;
     height: 2rem;
     color: #066fcc;
-
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -331,14 +303,45 @@ a:hover {
     text-decoration: underline;
 
 }
-
+/* pagina detalle*/
 .detalle-container {
-    width: 100%;
-    height: 100%;
-    background-image: url(../assets/img/pelicula_1.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    object-fit: cover;
    
+    background: linear-gradient(to bottom, #5555553d, #2c2929a3), url("../assets/img/pelicula_1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 
+.detalle-info, h1 {
+    font-size: 36px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    z-index: 20;
 }
+
+.clasificacion {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sinopsis {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.boton-ver{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #252524;
+    color: #944b7a;
+    cursor: pointer;
+  
+}
+}
+
+
+
+
