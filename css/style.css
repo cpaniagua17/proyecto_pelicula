@@ -17,25 +17,26 @@
     text-align:center;
     
 
-     ul  {
+     ul {
         width: 100%;
         font-size: 1.2rem;
         display: flex;
-        flex-direction: row;
-        align-items: center;        
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin-top: 10px;
-        margin-bottom: 10px;
-           
-    }
+        padding: 0px;
+          
+     }
  
  i{
     color: aliceblue;
     font-size: 1.5rem;
     padding: 5px;
-    margin-right: 10px;
+
+    margin-top: 10px;
  }
+
 }
+
 .cartel:hover{
 	animation:  1s cartel 1;
 	transform-origin: top center;
@@ -297,7 +298,7 @@ footer {
     color: aliceblue;
 
     h6 {
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 100;
     }
 }
@@ -352,7 +353,7 @@ a:hover {
 }
 }
 
-@media screen and (max-width: 768px) and (min-width:900px) {
+@media screen and (max-width: 768px) and (min-width:1024px) {
  
     .containerPeliculas {
       justify-content: space-between;
