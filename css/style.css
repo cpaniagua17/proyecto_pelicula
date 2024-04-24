@@ -8,61 +8,63 @@
 }
 
 /*estilos header*/
- .header-container {
+.header-container {
     width: 100%;
     min-height: 100px;
     background-image: linear-gradient(to bottom, #263448, #52446d, #944b7a, #cf556a, #ee7743);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align:center;
-    
+    text-align: center;
 
-     ul {
+
+    ul {
         width: 100%;
         font-size: 1.2rem;
         display: flex;
         justify-content: space-around;
         margin-top: 10px;
         padding: 0px;
-          
-     }
- 
- i{
-    color: aliceblue;
-    font-size: 1.5rem;
-    padding: 5px;
 
-    margin-top: 10px;
- }
+    }
+
+    i {
+        color: aliceblue;
+        font-size: 1.5rem;
+        padding: 5px;
+
+        margin-top: 10px;
+    }
 
 }
 
-.cartel:hover{
-	animation:  1s cartel 1;
-	transform-origin: top center;
+.cartel:hover {
+    animation: 1s cartel 1;
+    transform-origin: top center;
 }
 
 @keyframes cartel {
-	20%{
-		-webkit-transform: rotate(15deg);
-	}
+    20% {
+        -webkit-transform: rotate(15deg);
+    }
 
-	40%{
-		-webkit-transform: rotate(-10deg);
-	}
-	60%{
-		-webkit-transform: rotate(5deg);
-	}
-	80%{
-		-webkit-transform: rotate(-3deg);
-	}
+    40% {
+        -webkit-transform: rotate(-10deg);
+    }
 
-	
+    60% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-3deg);
+    }
+
+
 }
 
-    
- 
- /*estilos body*/
+
+
+/*estilos body*/
 body {
     background-color: #171919;
     color: aliceblue;
@@ -96,7 +98,7 @@ h2 {
     background: linear-gradient(to bottom, #5555553d, #2c2929a3), url("../assets/img/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 }
 
@@ -133,6 +135,7 @@ hr {
         display: flex;
         align-items: center;
     }
+
     .input-buscador {
         width: 4rem;
         height: 2rem;
@@ -153,37 +156,37 @@ hr {
 
 /* seccion galeria */
 
-    .containerPeliculas {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 10px;
-    }
+.containerPeliculas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 
-        .pelicula {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-        }
-    
+.pelicula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
 
-    img {
-       width: 320px ;
-        height: 400px;
-        margin: 10px;
-        border-radius: 5px;
-        box-shadow: 10px 10px 47px -6px rgba(122, 121, 121, 0.42);
-        object-fit: cover;
 
-    }
+img {
+    width: 320px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 47px -6px rgba(122, 121, 121, 0.42);
+    object-fit: cover;
 
-    .pasarpagina {
-        width: 100%;
-        margin: 20px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-           }
+}
+
+.pasarpagina {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 img:hover {
     transform: scale(1.05);
@@ -205,7 +208,7 @@ img:hover {
     row-gap: 20px;
     padding: 10px;
 
-    }
+}
 
 
 /*formulario de registro*/
@@ -222,23 +225,24 @@ img:hover {
 .formulario,
 input,
 select {
-    min-width: 250px;   
+    min-width: 250px;
     margin: 5px auto;
     color: #944b7a;
     padding: 5px;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    
+
     align-items: center;
 }
 
- .boton-formulario, .boton{
-     width: 5rem;
-     border-radius: 5px;
-     padding: 5px;
-     margin: 10px;
-     background-color: #252524;
+.boton-formulario,
+.boton {
+    width: 5rem;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #252524;
     color: #944b7a;
     font-size: 16px;
 
@@ -314,55 +318,54 @@ a:hover {
     text-decoration: underline;
 
 }
+
 /* pagina detalle*/
 .detalle-container {
-   min-height: auto;
+    min-height: auto;
     background: linear-gradient(to bottom, #5555553d, #2c2929a3), url("../assets/img/pelicula_1.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 
-.detalle-info, h1 {
-    font-size: 36px;
-    max-width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
-    z-index: 20;
-}
+    .detalle-info,
+    h1 {
+        font-size: 36px;
+        max-width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        z-index: 20;
+    }
 
-.clasificacion {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
+    .clasificacion {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
 
-.sinopsis {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-.boton-ver{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #252524;
-    color: #944b7a;
-    cursor: pointer;
-  
-}
+    .sinopsis {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .boton-ver {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #252524;
+        color: #944b7a;
+        cursor: pointer;
+
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width:1024px) {
- 
+
     .containerPeliculas {
-      justify-content: space-between;
-      flex-wrap: wrap;
-      padding: 10px;
-  
-  }
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
 }
-
-
-
-
