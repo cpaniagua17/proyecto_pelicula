@@ -36,6 +36,30 @@
     margin-right: 10px;
  }
 }
+.cartel:hover{
+	animation:  1s cartel 1;
+	transform-origin: top center;
+}
+
+@keyframes cartel {
+	20%{
+		-webkit-transform: rotate(15deg);
+	}
+
+	40%{
+		-webkit-transform: rotate(-10deg);
+	}
+	60%{
+		-webkit-transform: rotate(5deg);
+	}
+	80%{
+		-webkit-transform: rotate(-3deg);
+	}
+
+	
+}
+
+    
  
  /*estilos body*/
 body {
@@ -46,12 +70,6 @@ body {
 }
 
 /* seccion banner*/
-main {
-    width: 100%;
-    height: 100%;
-
-
-}
 
 h1 {
     color: aliceblue;
@@ -73,11 +91,11 @@ h2 {
 
 .banner {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background: linear-gradient(to bottom, #5555553d, #2c2929a3), url("../assets/img/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    
 
 }
 
@@ -149,8 +167,8 @@ hr {
     
 
     img {
-        min-width: 250px;
-        height: 350px;
+       width: 320px ;
+        height: 400px;
         margin: 10px;
         border-radius: 5px;
         box-shadow: 10px 10px 47px -6px rgba(122, 121, 121, 0.42);
@@ -172,6 +190,7 @@ img:hover {
 
 }
 
+
 /*seccion aclamadas*/
 
 .containerAclamadas {
@@ -185,16 +204,7 @@ img:hover {
     row-gap: 20px;
     padding: 10px;
 
-    img {
-        min-width: 250px;
-        height: 350px;
-        margin: 10px;
-        border-radius: 5px;
-        box-shadow: 10px 10px 47px -6px rgba(122, 121, 121, 0.42);
-        object-fit: cover;
-
     }
-}
 
 
 /*formulario de registro*/
@@ -211,14 +221,14 @@ img:hover {
 .formulario,
 input,
 select {
-    min-width: 250px;
+    min-width: 250px;   
     margin: 5px auto;
     color: #944b7a;
     padding: 5px;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    
     align-items: center;
 }
 
@@ -340,6 +350,16 @@ a:hover {
     cursor: pointer;
   
 }
+}
+
+@media screen and (max-width: 768px) and (min-width:900px) {
+ 
+    .containerPeliculas {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 10px;
+  
+  }
 }
 
 
